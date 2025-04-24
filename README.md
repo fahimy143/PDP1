@@ -55,7 +55,3 @@ Feel free to improve the repository:
 
 This project is free to use and modify.
 Enjoy working with the Backlog Management System
-
-This `README.md` gives a **clear description** of your project, including setup instructions, folder structure, and UML diagrams.
-
-Let me know if you want any modifications! 💡
