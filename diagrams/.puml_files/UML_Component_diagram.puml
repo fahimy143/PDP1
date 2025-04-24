@@ -1,0 +1,12 @@
+@startuml
+rectangle "Backlog System" {
+    component "Backlog Manager"
+    component "Product Manager"
+    component "Release Manager"
+    component "Sprint Manager"
+
+    "Backlog Manager" --> "Product Manager"
+    "Backlog Manager" --> "Release Manager"
+    "Backlog Manager" --> "Sprint Manager"
+}
+@enduml

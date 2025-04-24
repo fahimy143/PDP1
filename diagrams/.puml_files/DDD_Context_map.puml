@@ -1,0 +1,7 @@
+@startuml
+rectangle "Backlog System" {
+    (Manage Backlog Items) --> ProductService
+    (Manage Backlog Items) --> ReleaseService
+    (Manage Backlog Items) --> SprintService
+}
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+actor "Product Owner" as PO
+actor "Developer" as Dev
+actor "Scrum Master" as SM
+
+rectangle "Backlog System" {
+    PO --> (Add Backlog Item)
+    PO --> (Update Backlog Item)
+    PO --> (Assign Backlog Item to Product)
+    PO --> (Assign Backlog Item to Release)
+    SM --> (Assign Backlog Item to Sprint)
+    Dev --> (View Backlog Item)
+    Dev --> (View Related Release Items)
+}
+@enduml

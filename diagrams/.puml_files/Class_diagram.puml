@@ -1,0 +1,28 @@
+@startuml
+class BacklogItem {
+    - id : String
+    - title : String
+    - description : String
+    - product : Product
+    - release : Release
+    - sprint : Sprint
+}
+class Product {
+    - id : String
+    - name : String
+}
+class Release {
+    - id : String
+    - version : String
+    - description : String
+}
+class Sprint {
+    - id : String
+    - name : String
+    - startDate : String
+    - endDate : String
+}
+BacklogItem --> Product
+BacklogItem --> Release
+BacklogItem --> Sprint
+@enduml
